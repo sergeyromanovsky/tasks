@@ -1,6 +1,4 @@
-import { Addresses, AddressesKeys, Instructions, InstructionsInput } from "./types";
-
-
+import { Addresses, AddressesKeys, InstructionsInput } from "./types";
 
 const instructions = ({ instructions, addresses }: InstructionsInput) => {
   return Object.keys(instructions).map((key) => {
