@@ -1,0 +1,14 @@
+{
+  "name": "tasks",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "task:2": "ts-node ./2.ts",
+    "task:3": "ts-node ./3.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
